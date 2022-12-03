@@ -12,7 +12,7 @@ public class Sort implements Serializable {
         if (!sort.isBlank() || !sort.isEmpty()) {
             this.sort = sort;
         } else {
-            throw new IllegalArgumentException("Сортировка не может быть пустой!");
+            throw new IllegalArgumentException("РЎРѕСЂС‚РёСЂРѕРІРєР° РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РїСѓСЃС‚РѕР№!");
         }
     }
 

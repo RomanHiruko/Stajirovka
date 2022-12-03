@@ -12,7 +12,7 @@ public class Company implements Serializable {
         if (!company.isBlank() || !company.isEmpty()) {
             this.company = company;
         } else {
-            throw new IllegalArgumentException("Наименование производителя не может быть пустым!");
+            throw new IllegalArgumentException("РќР°РёРјРµРЅРѕРІР°РЅРёРµ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЏ РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РїСѓСЃС‚С‹Рј!");
         }
     }
 

@@ -11,7 +11,7 @@ public class Ram implements Serializable {
         if(ram>0){
             this.ram = ram;
         }else {
-            throw new IllegalArgumentException("ОП не может быть меньше 0");
+            throw new IllegalArgumentException("РћРџ РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РјРµРЅСЊС€Рµ 0");
         }
     }
 
